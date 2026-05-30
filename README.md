@@ -1,58 +1,442 @@
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
+# 💅 Sistema de Agendamento para Nail Designer
 
-<p align="center">
-<a href="https://github.com/laravel/framework/actions"><img src="https://github.com/laravel/framework/workflows/tests/badge.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
-</p>
+Sistema web para gerenciamento de agendamentos de uma designer de unhas, com fluxo de solicitação e aprovação manual de horários.
 
-## About Laravel
+Projeto desenvolvido com foco em estudo de arquitetura backend, regras de negócio e construção de portfólio.
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
+---
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
+## 🚀 Objetivo
 
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
+Resolver problemas comuns de agenda como:
 
-## Learning Laravel
+- conflitos de horários
+- dificuldade em remarcar clientes
+- controle manual de agendamentos
+- organização dos serviços do dia
+- gestão de disponibilidade
 
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
+O sistema permite que clientes solicitem horários e que a profissional aprove ou recuse agendamentos por um painel administrativo.
 
-In addition, [Laracasts](https://laracasts.com) contains thousands of video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
+---
 
-You can also watch bite-sized lessons with real-world projects on [Laravel Learn](https://laravel.com/learn), where you will be guided through building a Laravel application from scratch while learning PHP fundamentals.
+# ✨ Funcionalidades (MVP)
 
-## Agentic Development
+## 👤 Área do Cliente
+- Cadastro de usuários
+- Login
+- Visualização de serviços
+- Solicitação de agendamento
+- Consulta de agendamentos
+- Cancelamento com 48 horas de antecedência
 
-Laravel's predictable structure and conventions make it ideal for AI coding agents like Claude Code, Cursor, and GitHub Copilot. Install [Laravel Boost](https://laravel.com/docs/ai) to supercharge your AI workflow:
+---
 
-```bash
-composer require laravel/boost --dev
+## 🛠 Área Administrativa
+- Login administrativo
+- Cadastro e gerenciamento de serviços
+- Painel de pedidos pendentes
+- Aprovar agendamentos
+- Recusar solicitações
+- Reagendar clientes
+- Gestão de horários disponíveis
+- Bloqueio manual de horários
 
-php artisan boost:install
+---
+
+# 🔄 Fluxo do Sistema
+
+```text
+Cliente escolhe serviço
+↓
+Sistema mostra horários disponíveis
+↓
+Cliente solicita agendamento
+↓
+Status: PENDENTE
+↓
+Administrador avalia
+├─ Aprova
+└─ Recusa
+↓
+Se aprovado:
+Status → APROVADO
+Horário → Ocupado
 ```
 
-Boost provides your agent 15+ tools and skills that help agents build Laravel applications while following best practices.
+---
+...skipping...
+---
 
-## Contributing
+# 🔄 Fluxo do Sistema
 
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
+```text
+Cliente escolhe serviço
+↓
+Sistema mostra horários disponíveis
+↓
+Cliente solicita agendamento
+↓
+Status: PENDENTE
+↓
+Administrador avalia
+├─ Aprova
+└─ Recusa
+↓
+Se aprovado:
+Status → APROVADO
+Horário → Ocupado
+```
 
-## Code of Conduct
+---
+...skipping...
+# 💅 Sistema de Agendamento para Nail Designer
 
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
+Sistema web para gerenciamento de agendamentos de uma designer de unhas, com fluxo de solicitação e aprovação manual de horários.
 
-## Security Vulnerabilities
+Projeto desenvolvido com foco em estudo de arquitetura backend, regras de negócio e construção de portfólio.
 
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
+---
 
-## License
+## 🚀 Objetivo
 
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+Resolver problemas comuns de agenda como:
+
+- conflitos de horários
+- dificuldade em remarcar clientes
+- controle manual de agendamentos
+- organização dos serviços do dia
+- gestão de disponibilidade
+
+O sistema permite que clientes solicitem horários e que a profissional aprove ou recuse agendamentos por um painel administrativo.
+
+set mark: ...skipping...
+# 💅 Sistema de Agendamento para Nail Designer
+
+Sistema web para gerenciamento de agendamentos de uma designer de unhas, com fluxo de solicitação e aprovação manual de horários.
+
+Projeto desenvolvido com foco em estudo de arquitetura backend, regras de negócio e construção de portfólio.
+
+---
+
+## 🚀 Objetivo
+
+Resolver problemas comuns de agenda como:
+
+# 💅 Sistema de Agendamento para Nail Designer
+
+Sistema web para gerenciamento de agendamentos de uma designer de unhas, com flu
+xo de solicitação e aprovação manual de horários.
+
+Projeto desenvolvido com foco em estudo de arquitetura backend, regras de negóci
+o e construção de portfólio.
+
+---
+
+## 🚀 Objetivo
+
+- conflitos de horários
+- dificuldade em remarcar clientes
+- controle manual de agendamentos
+- organização dos serviços do dia
+- gestão de disponibilidade
+
+O sistema permite que clientes solicitem horários e que a profissional aprove ou recuse agendamentos por um painel administrativo.
+
+---
+
+set mark: ...skipping...
+# 💅 Sistema de Agendamento para Nail Designer
+
+Sistema web para gerenciamento de agendamentos de uma designer de unhas, com fluxo de solicitação e aprovação manual de horários.
+
+Projeto desenvolvido com foco em estudo de arquitetura backend, regras de negócio e construção de portfólio.
+
+---
+
+## 🚀 Objetivo
+
+# 💅 Sistema de Agendamento para Nail Designer
+
+Sistema web para gerenciamento de agendamentos de uma designer de unhas, com flu
+xo de solicitação e aprovação manual de horários.
+
+Projeto desenvolvido com foco em estudo de arquitetura backend, regras de negóci
+o e construção de portfólio.
+
+---
+
+## 🚀 Objetivo
+
+Resolver problemas comuns de agenda como:
+
+- conflitos de horários
+- dificuldade em remarcar clientes
+- controle manual de agendamentos
+- organização dos serviços do dia
+- gestão de disponibilidade
+
+O sistema permite que clientes solicitem horários e que a profissional aprove ou recuse agendamentos por um painel administrativo.
+
+---
+
+# ✨ Funcionalidades (MVP)
+
+## 👤 Área do Cliente
+- Cadastro de usuários
+- Login
+- Visualização de serviços
+- Solicitação de agendamento
+- Consulta de agendamentos
+- Cancelamento com 48 horas de antecedência
+
+---
+
+## 🛠 Área Administrativa
+- Login administrativo
+- Cadastro e gerenciamento de serviços
+- Painel de pedidos pendentes
+- Aprovar agendamentos
+- Recusar solicitações
+- Reagendar clientes
+- Gestão de horários disponíveis
+- Bloqueio manual de horários
+
+---
+
+# 🔄 Fluxo do Sistema
+
+```text
+Cliente escolhe serviço
+↓
+Sistema mostra horários disponíveis
+↓
+Cliente solicita agendamento
+↓
+Status: PENDENTE
+↓
+Administrador avalia
+├─ Aprova
+└─ Recusa
+↓
+Se aprovado:
+Status → APROVADO
+Horário → Ocupado
+```
+
+---
+
+# 📌 Regras de Negócio
+
+## Status dos Agendamentos
+
+- Disponível
+- Pendente
+- Aprovado
+- Cancelado
+- Concluído
+- Bloqueado
+
+---
+
+## Cancelamento
+Permitido apenas com:
+
+- mínimo de 48 horas de antecedência
+
+---
+
+## Aprovação Manual
+Todo agendamento feito pelo cliente:
+
+- entra como pendente
+- precisa ser aprovado pela profissional
+
+Objetivo:
+
+- organização da agenda
+- preparo dos serviços do dia
+- evitar sobrecarga
+
+---
+
+## Conflito de Horários
+
+Regra para impedir sobreposição:
+
+```sql
+(data_inicio < fim AND data_fim > inicio)
+```
+
+---
+
+# 🧱 Arquitetura
+
+Projeto estruturado em MVC simplificado.
+
+```text
+app/
+├── controllers
+├── models
+└── core
+
+views/
+public/
+config/
+routes.php
+```
+
+---
+
+# 🛠 Stack
+
+- PHP (POO)
+- MySQL
+- HTML
+- CSS
+- XAMPP
+- MVC simplificado
+
+Conceitos aplicados:
+
+- Herança
+- Polimorfismo
+- PDO
+- Prepared Statements
+- Separação de responsabilidades
+
+---
+
+# 🗄 Modelagem Inicial
+
+## usuarios
+```sql
+id
+nome
+email
+senha
+tipo
+created_at
+```
+
+---
+
+## servicos
+```sql
+id
+nome
+duracao
+preco
+ativo
+```
+
+---
+
+## agendamentos
+```sql
+id
+usuario_id
+servico_id
+data
+hora_inicio
+hora_fim
+status
+observacoes
+created_at
+```
+
+---
+
+# 📋 Roadmap
+
+## MVP
+- [ ] Autenticação
+- [ ] Cadastro de serviços
+- [ ] Solicitação de agendamento
+- [ ] Aprovação administrativa
+- [ ] Cancelamento 48h
+- [ ] Agenda por horários
+
+---
+
+## Versão 2
+- [ ] Notificações WhatsApp
+- [ ] Lembretes automáticos
+- [ ] Dashboard
+- [ ] Histórico de clientes
+
+---
+
+## Versão 3
+- [ ] Multi profissionais
+- [ ] Pagamentos
+- [ ] SaaS
+
+---
+
+# ⚙️ Instalação
+
+Clone o projeto:
+
+```bash
+git clone https://github.com/SEU-USUARIO/sistema-agendamento-php.git
+```
+
+Entre no diretório:
+
+```bash
+cd sistema-agendamento-php
+```
+
+Configure o banco de dados e importe:
+
+```bash
+sql/schema.sql
+```
+
+Rodar no XAMPP:
+
+```bash
+http://localhost/sistema-agendamento-php
+```
+
+---
+
+# 📂 Estrutura do Projeto
+
+```text
+.
+├── app/
+├── config/
+├── docs/
+├── public/
+├── sql/
+├── views/
+├── routes.php
+└── README.md
+```
+
+---
+
+# 📚 Aprendizados do Projeto
+
+Este projeto foi pensado para praticar:
+
+- Arquitetura MVC
+- Regras de negócio reais
+- Modelagem de banco
+- PHP orientado a objetos
+- Desenvolvimento incremental por MVP
+
+---
+
+## 🚧 Status
+
+Projeto em desenvolvimento.
+
+---
+
+## Autor
+
+Desenvolvido por Alan Victor.
+
