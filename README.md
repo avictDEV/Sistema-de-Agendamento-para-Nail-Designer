@@ -1,4 +1,4 @@
-# 💅 Sistema de Agendamento para Nail Designer
+# Sistema de Agendamento para Nail Designer
 
 Sistema web para gerenciamento de agendamentos de uma designer de unhas, com flu
 xo de solicitação e aprovação manual de horários.
@@ -8,7 +8,7 @@ o e construção de portfólio.
 
 ---
 
-## 🚀 Objetivo
+##  Objetivo
 
 Resolver problemas comuns de agenda como:
 
@@ -22,9 +22,9 @@ O sistema permite que clientes solicitem horários e que a profissional aprove o
 
 ---
 
-# ✨ Funcionalidades (MVP)
+#  Funcionalidades (MVP)
 
-## 👤 Área do Cliente
+## Área do Cliente
 - Cadastro de usuários
 - Login
 - Visualização de serviços
@@ -34,7 +34,7 @@ O sistema permite que clientes solicitem horários e que a profissional aprove o
 
 ---
 
-## 🛠 Área Administrativa
+## Área Administrativa
 - Login administrativo
 - Cadastro e gerenciamento de serviços
 - Painel de pedidos pendentes
@@ -46,7 +46,7 @@ O sistema permite que clientes solicitem horários e que a profissional aprove o
 
 ---
 
-# 🔄 Fluxo do Sistema
+#  Fluxo do Sistema
 
 ```text
 Cliente escolhe serviço
@@ -68,7 +68,7 @@ Horário → Ocupado
 
 ---
 
-# 📌 Regras de Negócio
+# Regras de Negócio
 
 ## Status dos Agendamentos
 
@@ -112,7 +112,7 @@ Regra para impedir sobreposição:
 
 ---
 
-# 🧱 Arquitetura
+# Arquitetura
 
 Projeto estruturado em MVC simplificado.
 
@@ -130,7 +130,7 @@ routes.php
 
 ---
 
-# 🛠 Stack
+# Stack
 
 - PHP (POO)
 - MySQL
@@ -149,7 +149,7 @@ Conceitos aplicados:
 
 ---
 
-# 🗄 Modelagem Inicial
+# Modelagem Inicial
 
 ## usuarios
 ```sql
@@ -189,7 +189,7 @@ created_at
 
 ---
 
-# 📋 Roadmap
+# Roadmap
 
 ## MVP
 - [ ] Autenticação
@@ -216,7 +216,7 @@ created_at
 
 ---
 
-# ⚙️ Instalação
+# Instalação
 
 Clone o projeto:
 
@@ -244,7 +244,7 @@ http://localhost/sistema-agendamento-php
 
 ---
 
-# 📂 Estrutura do Projeto
+# Estrutura do Projeto
 
 ```text
 .
@@ -260,7 +260,7 @@ http://localhost/sistema-agendamento-php
 
 ---
 
-# 📚 Aprendizados do Projeto
+# Aprendizados do Projeto
 
 Este projeto foi pensado para praticar:
 
@@ -272,7 +272,7 @@ Este projeto foi pensado para praticar:
 
 ---
 
-## 🚧 Status
+## Status
 
 Projeto em desenvolvimento.
 
